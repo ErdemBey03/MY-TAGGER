@@ -1,0 +1,44 @@
+{
+
+  "name": "Majeste Tagger",
+
+  "logo":"https://telegra.ph/file/a4167a7136281d8b787f1.jpg",
+
+  "description": "majeste tagger bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
+
+  "env": {
+
+    "TOKEN": {
+
+      "description": "bot token girin.",
+
+      "value": ""
+
+    },
+
+    "APP_ID": {
+
+      "description": "@otomytelegrambot dan api hash api id alınız.",
+
+      "value": ""
+
+    },
+
+    "API_HASH": {
+
+      "description": "@otomytelegrambot dan api hash api id alınız.",
+
+      "value": ""
+
+    }
+
+  },
+
+  "buildpacks": [{
+
+    "url": "https://github.com/heroku/heroku-buildpack-python.git"
+
+  }]
+
+}
+
